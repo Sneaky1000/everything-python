@@ -8,7 +8,7 @@ print(result) # Output: 15
 result2 = result / 2
 print(result2) # Output: 7.5
 
-# Variables in Python should use snake_case, not camelCase syntax
+# Local v3ariables in Python should use snake_case, not camelCase syntax
 variable_name = 0
 
 # Variables have the same features as other languages when it comes to operations
@@ -32,10 +32,11 @@ print(num4) # Output: 0.5
 num5 = 1 # This can be used globally since it isn't defined in a function
 
 # Variables can be used globally when defined in a function by using the 'global' keyword
-global num6 # Declare the variable (global variables cannot be initialized by adding the '=' operator on the same line without a semi-colon
-global num7; num7 = 1 # This works
-global num8
-num8 = 1 # This also works
+# Global variables should be all uppercase and snake_case
+global NUM_SIX # Declare the variable (global variables cannot be initialized by adding the '=' operator on the same line without a semi-colon
+global NUM7; NUM7 = 1 # This works
+global NUM_8
+NUM_8 = 1 # This also works
 
 
 # Other notes
