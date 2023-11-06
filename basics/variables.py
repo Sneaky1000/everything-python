@@ -29,7 +29,7 @@ num4 /= 2
 print(num4) # Output: 0.5
 
 # Variables assinged solely with the '=' operator are scoped to the function/region they're created in
-num5 = 1 # This can be used globally since it isn't defined in a function
+NUM_VAR = 1 # This can be used globally since it isn't defined in a function and should be all uppercase SNAKE_CASE
 
 # Variables can be used globally when defined in a function by using the 'global' keyword
 # Global variables should be all uppercase and snake_case
