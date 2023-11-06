@@ -38,10 +38,9 @@ global num7; num7 = 1 # This works
 global num_8
 num_8 = 1 # This also works
 
-
 # Other notes
 # -----------
 # 1. Variable names cannot start with a number
 # 2. Variable names cannot contain special characters (e.g. @, !, ^, %, $, etc.)
 # 3. Constants should be all uppercase and SNAKE_CASE (both local and global)
-
+# 4. Unlike other languages, constants CAN be reassigned but should not be
