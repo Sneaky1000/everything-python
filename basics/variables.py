@@ -29,18 +29,19 @@ num4 /= 2
 print(num4) # Output: 0.5
 
 # Variables assinged solely with the '=' operator are scoped to the function/region they're created in
-NUM_VAR = 1 # This can be used globally since it isn't defined in a function and should be all uppercase SNAKE_CASE
+num5 = 1 # This can be used globally since it isn't defined in a function
 
 # Variables can be used globally when defined in a function by using the 'global' keyword
-# Global variables should be all uppercase and snake_case
-global NUM_SIX # Declare the variable (global variables cannot be initialized by adding the '=' operator on the same line without a semi-colon
-global NUM7; NUM7 = 1 # This works
+# Global variables should be snake_case
+global num_six # Declare the variable (global variables cannot be initialized by adding the '=' operator on the same line without a semi-colon
+global num7; num7 = 1 # This works
 global NUM_8
-NUM_8 = 1 # This also works
+num_8 = 1 # This also works
 
 
 # Other notes
 # -----------
 # 1. Variable names cannot start with a number
 # 2. Variable names cannot contain special characters (e.g. @, !, ^, %, $, etc.)
+# 3. Constants should be all uppercase and SNAKE_CASE (both local and global)
 
