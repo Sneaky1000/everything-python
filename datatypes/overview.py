@@ -34,6 +34,6 @@ There are several data types in Python. Here are the built-in types:
 8. None types (null/nil)
   a. None: `none`
 
-This file will go over most of the basic data types that are used most commonly
+This file will go over most of the *basic* data types that are used most commonly
 
 '''
