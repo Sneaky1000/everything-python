@@ -45,6 +45,6 @@ Data can be converted manually using:
   `tuple()`
   `set()`
 
-This file will go over most of the *basic* data types that are used most commonly
+This folder will go over most of the *basic* data types that are used most commonly
 
 '''
