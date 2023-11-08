@@ -33,6 +33,17 @@ There are several data types in Python. Here are the built-in types:
 
 8. None types (null/nil)
   a. None: `none`
+  
+Python is incredibly flexible with datatypes (sometimes data is converted automatically).
+Data can be converted manually using:
+  `int()`
+  `float()`
+  `str()`
+  `bool()`
+  `list()`
+  `dict()`
+  `tuple()`
+  `set()`
 
 This file will go over most of the *basic* data types that are used most commonly
 
