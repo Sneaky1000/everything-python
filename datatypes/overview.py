@@ -1,4 +1,4 @@
-# Data types
+# Data types overview
 
 '''
 There are several data types in Python. Here are the built-in types:
