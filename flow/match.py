@@ -18,3 +18,6 @@ match mood:
     print('Get some sleep')
   case _: # This is the default case when no other condition (case) is met
     print(f'Sorry, there are no recommendations for the mood: {mood}')
+
+# Match case can also be replaced with ternary operations for shorter statements
+# See 'if_statements.py' in the 'flow' folder for more information
