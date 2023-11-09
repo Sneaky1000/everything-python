@@ -11,7 +11,7 @@ There are seven major ways that determine the flow of the code in Python
   5. Async - Runs code concurrently with other code to execute functions faster (`asyncio` module)
   6. Multithreading - Runs code parallel with other code using threads (`threading` module)
   7. Multiprocessing - Runs code parallel with other code using processes (`multiprocessing` module)
-  
+
 Commands like 'break' and 'next' can also be used to have even more control.
 
 This folder will go over the first *four* ways that alter the flow of the code as they are built in and
