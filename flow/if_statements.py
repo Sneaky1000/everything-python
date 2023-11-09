@@ -45,8 +45,17 @@ elif a == 4 or b == 4 or c == 4: # If `a` or `b` or `c` is equal to 4...
   # (If statements end when a condition is met)
 else:
   print('No condition was met')
-  
 # Output: `a` is truthy... \ and `b` is falsy
+
+# One thing to quickly mention is that Python has ternary operations
+# Here is an example of a ternary operation:
+ex_num = 3
+
+# [True value] if [Expression] else [False value]
+color = 'blue' if x < 5 else 'red'
+print(color) # Output: red
+
+
 
 # Other notes
 # -----------
