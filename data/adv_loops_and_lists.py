@@ -22,7 +22,7 @@ zipped_pairs = zip(inventory_items, inventory_quantities)
 print(zipped_pairs) # Output: <zip object at 0x7f1ce7994200> - (A zip object at memory address 0x7f1ce7994200)
 
 # Printing this without converting it to a list will not print the expected content
-# Instead, it won't print the expected output because `zip()` returns an iterator object, not a list
+# It won't print the expected output because `zip()` returns an iterator object, not a list
 
 # Use list() to convert the pairs into a list of tuples
 inventory = list(zipped_pairs)
