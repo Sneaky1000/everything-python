@@ -36,3 +36,6 @@ A repository containing everything related to the basics of the Python programmi
 28. data - map_and_filter.py
 29. data - file_handling.py
 30. data - deletion.py
+
+31. classes - overview.py
+32. classes - classes_in_practice.py
