@@ -30,4 +30,7 @@ Python is a high-level, interpreted, and versatile programming language known fo
 
   Open Source:
   Python is an open-source language, with a community-driven development model. This encourages collaboration, innovation, and continuous improvement.
+  
+  Case-sensitive:
+  Python is a case-sensitive language, meaning that whether or not something is uppercase/capitalized matters. `test` is not the same as `Test`.
 '''
