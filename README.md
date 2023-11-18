@@ -40,3 +40,4 @@ A repository containing everything related to the basics of the Python programmi
 31. classes - overview.py
 32. classes - classes_in_practice.py
 33. classes - dunder_methods.py
+34. classes - classes_and_methods.py
