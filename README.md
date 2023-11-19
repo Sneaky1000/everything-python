@@ -44,3 +44,8 @@ A repository containing everything related to the basics of the Python programmi
 35. classes - classes_and_scope.py
 36. classes - inheritance.py
 37. classes - extra_classes_info.py
+
+38. modules - overview.py
+39. modules - extra_modules.py
+40. modules - creating_modules.py
+41. modules - dunder_main.py
