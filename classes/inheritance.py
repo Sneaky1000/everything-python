@@ -71,11 +71,15 @@ print(shark.health) # Output: 100
 #---------------------#
 
 # This complex inheritance example will use a re-named `Monster` class
-class Beast:
+class Mob:
   # Add attributes `health` and `energy`
-  def __init__(self, health, energy):
+  def __init__(self, health, energy, **kwargs): # `**kwargs` stores any other arguments in a separate dictionary (it unpacks the arguments)
+    print(kwargs) # Output: {'speed': 120, 'has_scales': False}
     self.health = health
     self.energy = energy
+    # The line below will be explained in the `Whale` class
+    # kwargs will now take `speed` and `has_scales` from the `Fish` class (and more if added!)
+    super().__init__(**kwargs)
   
   # `attack` and `move` methods
   def attack(self, damage):
@@ -84,3 +88,46 @@ class Beast:
   
   def move(self, speed):
     print(f'The monster has moved at a speed of {speed} units per second!')
+
+# Define a class for any fish/sea creatures
+class Fish:
+  # Add `speed` and `has_scales` attributes
+  def __init__(self, speed, has_scales):
+    self.speed = speed
+    self.has_scales = has_scales
+
+  # `swim` method
+  def swim(self):
+    print(f'The fish is swimming at a speed of {self.speed}')
+
+# `Whale` class that inherits from the `Mob` and `Fish` classes
+# Order matters! Method Resolution Order (MRO) is the the order
+# that Python sees classes in
+class Whale(Mob, Fish):
+  # Add `bite_strength` attribute and inherit attributes from parent classes
+  def __init__(self, bite_strength, health, energy, speed, has_scales):
+    self.bite_strength = bite_strength
+    # To inherit from parent classes use the `super()` function as before
+    # This time, it's important to understand the MRO of the class...
+    # In this case, `Whale` is index '0', `Mob` is index '1', and `Fish` is index '2' 
+    # So this super() function calls the first item of inheritance, `Mob`
+    # super().__init__(health, energy)
+    # But this wouldn't get the other attributes from the `Fish` class
+    # This is where keyword arguments come into play (kwargs)
+    # Here, all attributes need to be assigned to their respective arguments
+    super().__init__(health = health, energy = energy, speed = speed, has_scales = has_scales)
+    
+  
+# Creating an object with the `Whale` class
+whale = Whale(
+  50, # Bite strength
+  200, # Health
+  55, # Energy
+  120, # Speed
+  False # Has scales?
+)
+
+print(whale.speed) # Output: 120
+whale.attack(12) # Output: The monster has attacked, dealing 12 damage!
+whale.swim() # Output: The fish is swimming at a speed of 120
+
