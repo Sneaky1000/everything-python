@@ -57,8 +57,3 @@ print(ceiling(2.1)) # Output: 3
 # Because all the functions from the `string` module were imported with the `*`
 # `ascii_lowercase` can be used without needing `string.` in front
 print(ascii_lowercase) # Output: abcdefghijklmnopqrstuvwxyz
-
-
-
-
-
