@@ -12,3 +12,6 @@ class TestClass:
   
   def say_hello(self):
     print(f'Hello, {self.name}!')
+
+# This will be explained in the `dunder_main.py` file
+print(__name__)
