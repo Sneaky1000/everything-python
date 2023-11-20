@@ -49,3 +49,9 @@ A repository containing everything related to the basics of the Python programmi
 39. modules - extra_modules.py
 40. modules - creating_modules.py
 41. modules - dunder_main.py
+
+42. extras - overview.py
+43. extras - input_and_pass.py
+44. extras - exceptions.py
+45. extras - decorators.py
+46. extras - eval_and_exec.py
