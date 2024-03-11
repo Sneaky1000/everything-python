@@ -60,3 +60,4 @@ A repository containing everything related to the basics of the Python programmi
 Advanced Python lessons are being worked on...
 - Multi-threading
 - Multi-processing
+- Data structures
