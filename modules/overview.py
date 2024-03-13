@@ -1,7 +1,7 @@
 # Modules overview
 
 '''
-Modules are extra parts that can be attached to programs For example, how about
+Modules are extra parts that can be attached to programs. For example, how about
 a random number generator? This can be added via the `random` module. Modules
 can also be created manually (across multiple files) to better organize code.
 

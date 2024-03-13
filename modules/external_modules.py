@@ -16,7 +16,7 @@ MacOS and Linux uses `pip3` because `pip` will use an old version
 For this file, in a terminal (Linux or Mac), use the following command to install pyautogui:
 pip3 install pyautogui
 
-For Windows, use:Thi
+For Windows, use:
 pip install pyautogui
 '''
 
