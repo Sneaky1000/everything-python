@@ -122,10 +122,10 @@ print('----------------------------------------------------------------')
 IMPORTANT: Functions with parameters can be decorated!
 '''
 
-# The most common type of parameter set is the (*args, *kwargs) parameters
+# The most common type of parameter set is the (*args, **kwargs) parameters
 # This allows the decorator to take in any function as the arguments can be anything
 def decor_func(func):
-  def wrapper(*args, **kwargs): # `*args` deals with lists, `*kwargs` deals with dictionaries
+  def wrapper(*args, **kwargs): # `*args` deals with lists, `**kwargs` deals with dictionaries
     print('Decoration begins...')
     func(*args, **kwargs) # This function's arguments MUST match the wrapper parameters
     print('Decorator ends...')
@@ -192,10 +192,10 @@ print('----------------------------------------------------------------')
 
 # It's important to understand the `@property` shorthand (comes from the `property()` function)
 # This allows methods to be turned into attributes
-# property()takes in a getter, setter, and deleter like this: `property(getter, setter, deleter)`
+# property() takes in a getter, setter, and deleter like this: `property(getter, setter, deleter)`
 # Getter is called when viewing the attribute
 # Setter is called when modifying the attribute
-# deleter is called when deleting the attribute
+# Deleter is called when deleting the attribute
 
 # Example...
 class Generic:
