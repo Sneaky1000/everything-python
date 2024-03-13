@@ -1,7 +1,7 @@
 # Scope
 
 '''
-Scope cope refers to the region of code where a variable or function is accessible.
+Scope refers to the region of code where a variable or a function is accessible.
 It defines where in the program a particular identifier (like a variable or function)
 can be used or modified.
 '''
@@ -16,7 +16,7 @@ test1() # Output: True
 # Another function can be made using `local_var` as a variable but it will be an entirely new variable
 # (It would be the equivalent of creating a brand new variable)
 
-# _variables created outside of a function are considered 'global scope' and can be accessed anywhere
+# Variables created outside of a function are considered 'global scope' and can be accessed anywhere
 # However, global variables defined outside of a function cannot be changed
 global_var = 2 # Trying to use `global_var += 1` inside a function will error because this variable is not editable
 
