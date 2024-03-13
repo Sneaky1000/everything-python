@@ -6,9 +6,9 @@ print(1.1 * 3) # Output: 3.3000000000000003
 
 # Long decimal numbers are considered to be floats in Python
 
-# Numbers can also be integers such as 1 or 53 or even 54049325 (wholr numbers)
+# Numbers can also be integers such as 1 or 53 or even 54049325 (whole numbers)
 
-# There are also complex numbers such as 2 + 4i but a package called cmath is required
+# There are also complex numbers such as 2 + 4i but a package called 'cmath' is required
 
 '''
 That issue is common with other programming languages but besides this,
