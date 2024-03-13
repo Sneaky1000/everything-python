@@ -63,7 +63,7 @@ for key in basic_dict:
 
 # The other containers work the same way as the list container
 
-# Numbers are not iterable are require the `range()` function to make them iterable
+# Numbers are not iterable and require the `range()` function to make them iterable
 for i in range(basic_num):
   print(i) # Output: 1 \ 2 \ 3
 

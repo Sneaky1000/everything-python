@@ -4,7 +4,7 @@
 Strings are very basic and basically the same as any other language.
 Strings can be created with single quotes or double quotes.
 
-Values can be added into strings in various way (Format method or via an f-string).
+Values can be added into strings in various ways (Format method or via an f-string).
 '''
 
 # Both examples below will result in the same

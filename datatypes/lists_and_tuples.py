@@ -47,7 +47,7 @@ print(list1[0:4:2]) # Output: [1, 3] - the third value of '2' means move forward
 # Leaving a value empty defaults the value...
 # Example: list1[a:b:c]
 # The default value for 'a' is index '0' (inclusive - the start of the list)
-# The default value for 'b' is the last index of the list (inclusive - the ned of the list)
+# The default value for 'b' is the last index of the list (inclusive - the end of the list)
 # The default value for 'c' is '1' (sorts the list forwards starting at index '0' skipping no values)
 
 
@@ -57,7 +57,7 @@ print(list1[0:4:2]) # Output: [1, 3] - the third value of '2' means move forward
 a, b = [10, 20]
 print(a, b) # Output: 10 20
 
-# Similarly, this assigns 'c' to '10 and d' to '20'
+# Similarly, this assigns 'c' to '10 and d' to 'string'
 c, d = (10, 'string') # Equivalent to: c, d = 10, 'string'
 print(c, d) # Output: 10 string
 
@@ -72,7 +72,7 @@ print(string1.split('t')) # Output: ['This is a ', 'es', ''] - characters are ca
 print(list(string1)) # Output: ['T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 't', 'e', 's', 't']
 
 # The `tuple()` built-in function attempts to create a tuple out of the argument (works the same way `list()` works)
-print(tuple(string1)) # Output: ['T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 't', 'e', 's', 't']
+print(tuple(string1)) # Output: ('T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 't', 'e', 's', 't')
 
 # The `join()` built-in function combines the list/tuple into a string
 print('GAP'.join(['one', 'two', 'three', 'four'])) # Output: oneGAPtwoGAPthreeGAPfour
@@ -81,7 +81,7 @@ print('GAP'.join(('one', 'two', 'three', 'four'))) # Output: oneGAPtwoGAPthreeGA
 
 # The `str()` built-in function turns a value into a string (this example uses a tuple)
 tuple_to_string = 1, 2, 'word'
-print(str(tuple_to_string)) #Output: (1, 2, 'word') - it looks like a tuple but it's actually a string
+print(str(tuple_to_string)) # Output: (1, 2, 'word') - it looks like a tuple but it's actually a string
 
 # Other notes
 # -----------

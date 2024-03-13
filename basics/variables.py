@@ -8,7 +8,7 @@ print(result) # Output: 15
 result2 = result / 2
 print(result2) # Output: 7.5
 
-# Local v3ariables in Python should use snake_case, not camelCase syntax
+# Local variables in Python should use snake_case, not camelCase syntax
 variable_name = 0
 
 # Variables have the same features as other languages when it comes to operations

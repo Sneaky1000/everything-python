@@ -42,7 +42,7 @@ def func3(*args): # The '*' operator will unpack the arguments passed into the f
   for arg in args:
     print(arg)
 
-# Now, infinite number of arguments can be passed and the function will handle them
+# Now, an infinite number of arguments can be passed and the function will handle them
 func3(1, 2, 3, 'test', True, None) # The unpacking operator in the function will take these arguments and convert them into a tuple
 # Output: 1 \ 2 \ 3 \ test \ True \ None
 

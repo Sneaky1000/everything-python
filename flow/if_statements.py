@@ -52,8 +52,8 @@ else:
 ex_num = 3
 
 # [True value] if [Expression] else [False value]
-color = 'blue' if x < 5 else 'red'
-print(color) # Output: red
+color = 'blue' if ex_num < 5 else 'red'
+print(color) # Output: blue
 
 
 

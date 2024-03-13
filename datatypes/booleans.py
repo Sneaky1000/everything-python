@@ -11,7 +11,7 @@ print(1 == 1) # Output: true
 # Example: is 1 not equal to 1?
 print(1 != 1) # Output: false
 
-# Lists, tuples and strings can be check to see if they contain a specific value using the `in` keyword
+# Lists, tuples, and strings can be checked to see if they contain a specific value using the `in` keyword
 print(1 in [1, 2, 3]) # Output: true
 print('e' in 'hello world') # Output: true
 print(5 in (1, 2, 3)) # Output: false

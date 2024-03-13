@@ -26,7 +26,7 @@ print(list(map(power_func, my_list))) # Output: [1, 4, 9, 16, 25]
 # This example can be shortened using a lambda function
 print(list(map(lambda num: num ** 2, my_list))) # Output: [1, 4, 9, 16, 25]
 
-# Example of `filter()` -Filter takes a key and an iterable for arguments
+# Example of `filter()` - Filter takes a key and an iterable for arguments
 # Filter takes an iterable and returns a new iterable with the values that match the condition
 
 # This function returns `True` if the number is less than four, `False` otherwise

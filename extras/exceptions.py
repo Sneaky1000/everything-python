@@ -20,7 +20,7 @@ except Exception as err: # If it fails or errors out, it will execute the code i
 # Error handling can be made to be more specific...
 # Pay attention to the execution order
 try: # Python will try executing the code in this block
-  print(non_existant_variable) # This is the first error so this block will stop being executed
+  print(non_existent_variable) # This is the first error so this block will stop being executed
   print(1/0) # Doesn't get executed because of the error above
 except NameError: # Python sees this error matches the executed code's error
   print('Variable name not found / does not exist') # Instead of crashing, it prints this string and exits

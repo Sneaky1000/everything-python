@@ -46,7 +46,7 @@ A repository containing everything related to the basics of the Python programmi
 37. classes - extra_classes_info.py
 
 38. modules - overview.py
-39. modules - extra_modules.py
+39. modules - external_modules.py
 40. modules - creating_modules.py
 41. modules - dunder_main.py
 
@@ -60,3 +60,4 @@ A repository containing everything related to the basics of the Python programmi
 Advanced Python lessons are being worked on...
 - Multi-threading
 - Multi-processing
+- And more!

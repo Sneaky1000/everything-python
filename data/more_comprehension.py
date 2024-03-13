@@ -4,7 +4,7 @@
 IMPORTANT: See 'list_comprehension.py' in the 'data' folder first!
 
 Besides list comprehension, there is also dictionary comprehension,
-tuple comprehension, set comprehension.
+tuple comprehension, and set comprehension.
 
 Dictionary comprehension syntax (using `num` as the appended value):
 {num: num for num in range(x)}

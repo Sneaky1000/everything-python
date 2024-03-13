@@ -5,7 +5,7 @@ Because every method has a reference to the class, it's easy to get and change
 class attributes. This means that methods are generally easier to work with
 as they rely much less on parameters, the 'global' keyword, and return values
 (although these are still usable). Objects can even be influenced from outside
-and from a local scope function.
+and local scoped functions.
 '''
 
 # Scope demonstration with the `Monster` class and an `updateHP()` function
