@@ -1,7 +1,7 @@
 # Classes and methods
 
 '''
-Everything in Python is an object. This includes the in-built strings, integers, etc.
+Everything in Python is an object. This includes strings, integers, etc.
 Even functions are objects. Now, methods. A function and a method both execute a block
 of code. The difference is that a method always belongs to an object.
 '''

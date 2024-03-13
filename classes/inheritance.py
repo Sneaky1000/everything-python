@@ -25,7 +25,7 @@ class Monster:
   def move(self, speed):
     print(f'The monster has moved at a speed of {speed} units per second!')
 
-# Now, the child class `hound` can inherit from the `Monster` class using parentheses
+# Now, the child class `shark` can inherit from the `Monster` class using parentheses
 # almost like passing it as an argument, but now, the parent class is being passed
 # for the child class to take attributes/methods from
 class Shark(Monster):
@@ -101,7 +101,7 @@ class Fish:
     print(f'The fish is swimming at a speed of {self.speed}')
 
 # `Whale` class that inherits from the `Mob` and `Fish` classes
-# Order matters! Method Resolution Order (MRO) is the the order
+# Order matters! Method Resolution Order (MRO) is the order
 # that Python sees classes in
 class Whale(Mob, Fish):
   # Add `bite_strength` attribute and inherit attributes from parent classes
