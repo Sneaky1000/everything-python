@@ -39,8 +39,8 @@ print(restock_list) # [('Bananas', 12), ('Grapes', 16), ('Melons', 27)]
 
 # List comprehension can be combined/nested
 
-# This list comprehension is printing a list from 0 to 4 as `y` increments from 0 to 9
-combined_comp = [[x for x in range(5)] for y in range(10)]
+# This list comprehension is printing a list from 0 to 4 as the loop increments from 0 to 9
+combined_comp = [[x for x in range(5)] for _ in range(10)]
 
 # Printing each `row` out makes it look like a matrix (data structures and Leetcode will remember this...)
 for row in combined_comp:
@@ -60,7 +60,7 @@ Output:
 [0, 1, 2, 3, 4]
 '''
 
-# If `y` from combined_comp is moved inside the append to make the append a tuple...
+# If `_` from combined_comp is moved inside the append and added as `y` to make the append a tuple...
 combined_comp2 = [[(x, y) for x in range(5)] for y in range(10)]
 
 '''

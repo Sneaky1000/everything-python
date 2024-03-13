@@ -2,7 +2,7 @@
 
 '''
 Functions can be passed into another function as an argument. The best example of this
-is the `sorted()` function. This function 
+is the `sorted()` function. This function simply sorts any iterable.
 '''
 
 # Numbers will be sorted in ascending order
@@ -27,7 +27,7 @@ list_of_tuples = [('a', 3), ('b', 10), ('c', 5), ('d', 21), ('e', 14)]
 
 # Define how to sort the list of tuples...
 def sort_func(item): # Each tuple is passed into the function as `item`
-  return item[1] # The return should be a number that tells `sorted()` what to look for when sorting
+  return item[1] # The return should be a number/index that tells `sorted()` what to look for when sorting
 
 # Since `sort_func()` returns the second value in each tuple, it will sort by the second value
 print(sorted(list_of_tuples, key = sort_func)) # Output: [('a', 3), ('c', 5), ('b', 10), ('e', 14), ('d', 21)]
