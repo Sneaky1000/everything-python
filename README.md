@@ -1,5 +1,5 @@
-# basic-python
-A repository containing everything related to the basics of the Python programming language.
+# everything-python
+A repository containing everything related to the basics (and advanced features/topics) of the Python programming language.
 
 ## Recommended learning order (folder - file)
 1. basics - overview.py
